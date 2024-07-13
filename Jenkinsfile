@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-        string(name: 'EXCEL_FILE_PATH', defaultValue: '', description: 'Path to the Excel file to process')
+        string(name: 'EXCEL_FILE_PATH', defaultValue: '', description: 'jenkins_job/vacancy_request_template.xlsx')
     }
 
     environment {
