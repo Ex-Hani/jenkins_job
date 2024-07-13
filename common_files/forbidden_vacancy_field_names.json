@@ -1,0 +1,33 @@
+{
+  "items": [
+    "account",
+    "parent",
+    "account_division",
+    "account_region",
+    "position",
+    "company",
+    "money",
+    "state",
+    "source",
+    "closed",
+    "hidden",
+    "created",
+    "updated",
+    "removed",
+    "priority",
+    "body",
+    "requirements",
+    "conditions",
+    "deadline",
+    "multiple",
+    "blocks",
+    "additional_fields_list",
+    "files",
+    "applicants_to_hire",
+    "children_division",
+    "frame_begin",
+    "priority",
+    "member",
+    "comment"
+  ]
+}
