@@ -6,8 +6,8 @@ pipeline {
         booleanParam(name: 'RUN_CREATE_VACANCY_FIELDS', defaultValue: false, description: 'Run create_vacancy_fields.py')
     }
     environment {
-        PYTHON = '/usr/bin/python3'  // Указываем найденный путь к интерпретатору Python
-        REPO_URL = 'https://github.com/huntflow/support-engineers.git'
+        PYTHON = '/usr/bin/python3'
+        REPO_URL = 'git@github.com:Ex-Hani/jenkins_job.git'
         SCRIPTS_DIR = 'scripts/schema/vacancy_request_creator'
     }
     stages {
